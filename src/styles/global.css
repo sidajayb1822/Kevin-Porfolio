@@ -1,0 +1,96 @@
+:root {
+  --void: #05060f;
+  --parchment: #f4ecd8;
+  --ink: #12132b;
+  --aurora: #5ef0c4;
+  --gold: #ffcb47;
+  --pixel-font: "Press Start 2P", ui-monospace, "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: var(--void);
+  color: var(--parchment);
+  font-family: var(--pixel-font);
+  -webkit-font-smoothing: none;
+  font-smooth: never;
+  image-rendering: pixelated;
+  touch-action: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#root {
+  position: relative;
+}
+
+canvas {
+  display: block;
+}
+
+/* Chunky pixel UI panel shared by dialog + content panels */
+.pixel-panel {
+  background: var(--ink);
+  color: var(--parchment);
+  border: 4px solid var(--parchment);
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.55);
+  padding: 20px;
+  line-height: 1.8;
+  font-size: 12px;
+}
+
+.pixel-btn {
+  font-family: var(--pixel-font);
+  font-size: 11px;
+  color: var(--ink);
+  background: var(--gold);
+  border: 3px solid var(--ink);
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.5);
+  padding: 10px 14px;
+  cursor: pointer;
+  image-rendering: pixelated;
+}
+.pixel-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.screen-fill {
+  position: absolute;
+  inset: 0;
+}
+
+.center-stack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+@keyframes blink {
+  0%,
+  60% {
+    opacity: 1;
+  }
+  61%,
+  100% {
+    opacity: 0.15;
+  }
+}
+.blink {
+  animation: blink 1.1s steps(1, end) infinite;
+}
