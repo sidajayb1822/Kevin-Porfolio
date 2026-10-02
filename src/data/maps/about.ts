@@ -54,7 +54,7 @@ export async function loadAboutMap(): Promise<MapDef> {
         label: "Read",
         solid: true,
         dialogue: [
-          "WELCOME TO KEVIN'S WORLD.",
+          "WELCOME TO SIDDHANT'S WORLD.",
           "This town is ABOUT ME — wander it.",
           "Press E / SPACE at the fountain, the hall and the workshop to look closer.",
           "Press E at the glowing pad (or ESC anywhere) to return to orbit.",

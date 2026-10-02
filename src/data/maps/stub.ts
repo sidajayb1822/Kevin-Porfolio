@@ -30,7 +30,7 @@ export function stubMap(id: ContinentId, title: string): MapDef {
         solid: true,
         dialogue: [
           `${title.toUpperCase()} IS STILL BEING BUILT.`,
-          "Kevin is drawing this continent right now.",
+          "Siddhant is drawing this continent right now.",
           "Press E at the pad — or ESC anywhere — to head back.",
         ],
       },

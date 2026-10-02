@@ -20,7 +20,7 @@ export const CONTINENTS: Continent[] = [
   {
     id: "about",
     title: "About Me",
-    subtitle: "Who Kevin is",
+    subtitle: "Who Siddhant is",
     landmass: "Heartland",
     ready: true,
   },

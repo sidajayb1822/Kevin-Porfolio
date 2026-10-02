@@ -1,4 +1,4 @@
-# Kevin's World
+# Siddhant's World
 
 A neo-pixel 2.5D portfolio site. Orbit a pixel-art world globe → click it to dive
 → pixel clouds part down the middle → a full-screen terraced pixel relief map

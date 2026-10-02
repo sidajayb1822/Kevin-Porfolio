@@ -87,7 +87,7 @@ export default function WorldScene() {
               marginBottom: 18,
             }}
           >
-            KEVIN&apos;S WORLD
+            SIDDHANT&apos;S WORLD
           </h1>
           <p
             className="blink"

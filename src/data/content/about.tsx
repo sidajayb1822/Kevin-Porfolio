@@ -5,14 +5,14 @@ export interface PanelContent {
   body: ReactNode;
 }
 
-// TODO: replace all copy below with Kevin's real words.
+// TODO: replace all copy below with Siddhant's real words.
 export const aboutContent: Record<string, PanelContent> = {
   bio: {
     title: "BIO",
     body: (
       <>
         <p>
-          [TODO: real copy] Kevin is a maker who builds vivid little worlds —
+          [TODO: real copy] Siddhant is a maker who builds vivid little worlds —
           games, illustrations, and interactive experiments.
         </p>
         <p>
@@ -29,7 +29,7 @@ export const aboutContent: Record<string, PanelContent> = {
         <li>20XX — Started drawing things that move.</li>
         <li>20XX — First shipped project.</li>
         <li>20XX — [milestone].</li>
-        <li>Now — Building Kevin&apos;s World.</li>
+        <li>Now — Building Siddhant&apos;s World.</li>
       </ul>
     ),
   },
